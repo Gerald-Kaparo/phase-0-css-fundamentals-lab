@@ -6,8 +6,46 @@ body {
 
 header{
   text-align: center;
+  background-color: #fff;
 }
+
+header nav a{
+  background-color: #999;
+}
+
 figure img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+figcaption{
+  text-align: center;
+}
+section{
   align-items: center;
-  margin-left: 5rem;
+}
+
+#featured-property p{
+  align-items: center;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#details{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+#details div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+
 }
