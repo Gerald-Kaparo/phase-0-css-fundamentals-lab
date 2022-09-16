@@ -3,3 +3,11 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header{
+  text-align: center;
+}
+figure img{
+  align-items: center;
+  margin-left: 5rem;
+}
